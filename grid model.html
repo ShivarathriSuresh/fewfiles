@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Grid template</title>
+ <style>
+  h1{text-align: center;
+    }
+
+   .grid-container{background-color:rgba(5, 93, 245, 0.234);
+                    display: grid;
+                   grid-template-columns: auto auto auto auto;
+                 padding: 20px;
+                }
+
+                .grid-container:hover{  gap: 10px;
+                                        border:10px solid blue;}
+
+       .item2{ text-align: center ;
+                              font-size: 20px;
+                            grid-column-start: 2;
+                            grid-column-end: 4;
+                        background-color: rgb(10, 235, 10);
+                         padding: 20px;}
+
+             .item1{ font-size: 20px;
+                     grid-row-start: 1;
+                    grid-row-end: 4;
+                  text-align: center;
+                  background-color: rgb(8, 239, 8);
+                  padding: 20px;
+                }  
+                
+                .item4{ text-align: center ;
+                              font-size: 20px;
+                            background-color: orange;
+                            padding: 20px;}
+
+                              .item3{ text-align: center ;
+                              font-size: 20px;
+                             background-color: #fe0404;
+                             padding: 20px;}
+
+                              .item5{ text-align: center ;
+                              font-size: 20px;  
+                               background-color: #fe0404;
+                               padding: 20px; }  
+                               
+                               .item6{ text-align: center ;
+                              font-size: 20px;  
+                               background-color:rgb(8, 239, 8);
+                               padding: 20px;
+                              }             
+
+                               .item7{ text-align: center ;
+                              font-size: 20px;  
+                               background-color: #fe0404; 
+                               padding: 20px;} 
+
+                               .item8{ text-align: center ;
+                              font-size: 20px;  
+                               background-color:orange;
+                               padding: 20px; } 
+
+                               .item9{ text-align: center ;
+                              font-size: 20px;  
+                               background-color:rgb(8, 239, 8) ; 
+                               padding: 20px;}  
+                               
+
+ </style>
+</head>
+<body>
+    <h1>Grid model Css</h1>
+
+ <div class="grid-container">
+
+  <div class="item1">Green</div>
+
+  <div class="item2">Green</div>
+
+  <div class="item3">red</div>
+
+  <div class="item4">Orange</div>
+
+  <div class="item5">red</div>
+
+  <div class="item6">Green</div>
+
+  <div class="item7">red</div>
+
+  <div class="item8">orange</div>
+
+  <div class="item9">Green</div>
+
+
+
+</div>
+
+</body>
+</html>
